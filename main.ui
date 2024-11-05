@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ui version="4.0">
+ <class>MyApp</class>
+ <widget class="QWidget" name="MyApp">
+  <property name="windowTitle">
+   <string>Простое приложение на PyQt5</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QLabel" name="label_name">
+     <property name="text">
+      <string>Имя:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="input_name"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_age">
+     <property name="text">
+      <string>Возраст:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="input_age"/>
+   </item>
+   <item>
+    <widget class="QLabel" name="label_email">
+     <property name="text">
+      <string>Email:</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QLineEdit" name="input_email"/>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="checkbox_terms">
+     <property name="text">
+      <string>Согласен с условиями</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QRadioButton" name="radiobutton_male">
+     <property name="text">
+      <string>Мужской</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QRadioButton" name="radiobutton_female">
+     <property name="text">
+      <string>Женский</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="button_submit">
+     <property name="text">
+      <string>Отправить</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="button_clear">
+     <property name="text">
+      <string>Очистить</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
+s
